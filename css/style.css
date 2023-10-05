@@ -298,22 +298,118 @@ p.mine-box-text span:nth-child(2) {
     justify-content: center;
     font-family: 'Inter', sans-serif;
 }
-.min-absolute-box{
+
+.box-img-relative {
     width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
+}
 
-}
-.span-box{
+.box-span-absolute {
     position: absolute;
-    top: 134px;
-    left: 47.5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.span-text{
-    color: red;
+
+.span-absolute {
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
 
+.span-absolute-2 {
+    margin-top: 12px;
+    display: block;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    width: 247px;
+}
+
+.span-absolute-3 {
+    margin-top: 12px;
+    display: block;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    width: 247px;
+    text-align: center;
+    width: 247px;
+}
+
+.span-absolute-4 {
+    margin-top: 12px;
+    display: block;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    width: 247px;
+}
+
+.action-1 {
+    width: 90px;
+    height: 40px;
+    border-radius: 32px;
+    background-color: #F3F3F3;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-box {
+    width: 100%;
+    height: 340px;
+    background-color: #000000;
+}
+
+.first-name-footer {
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 24.65px;
+    font-family: 'Inter', sans-serif;
+}
+
+.first-name-sub-footer {
+    margin-top: 50px;
+    font-size: 8.22px;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+.first-name-degree-footer{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav-min-name{
+    width: 90.33px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+.footer-nav-ul{
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+.footer-nav-ul-li{
+    margin-top: 8px;
+}
+.footer-nav-flex{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
 }
