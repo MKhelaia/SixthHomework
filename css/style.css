@@ -1,11 +1,12 @@
 /* header */
 .page-main-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .first-name-degree {
-    margin: 23px 24px;
+    /* margin: 34.5px, 24px; */
+    margin: 34.5px 24px;
     margin-right: 241px;
 }
 
@@ -387,29 +388,89 @@ p.mine-box-text span:nth-child(2) {
     color: #FFFFFF;
     font-family: 'Inter', sans-serif;
 }
-.first-name-degree-footer{
+
+.first-name-degree-footer {
     display: flex;
     justify-content: center;
 }
-.footer-nav-min-name{
+
+.footer-nav-min-name {
     width: 90.33px;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 }
-.footer-nav-ul{
+
+.footer-nav-ul {
     margin-top: 16px;
     font-size: 14px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     color: #FFFFFF;
 }
-.footer-nav-ul-li{
+
+.footer-nav-ul-li {
     margin-top: 8px;
 }
-.footer-nav-flex{
+
+.footer-nav-flex {
     margin-top: 25px;
     display: flex;
     justify-content: space-around;
+}
+
+.header-nav-ul {
+    display: none;
+}
+
+.button-action-center-1 {
+    display: none;
+}
+
+.hallway-img-1 {
+    display: none;
+}
+
+@media (min-width: 744px) {
+    .header-nav {
+        display: flex;
+    }
+
+    .header-nav-ul {
+        margin: 38px 87.5px;
+    }
+
+    .header-nav-ul {}
+
+    .heder-nav-li-1 {}
+
+    .heder-nav-li {
+        margin-left: 22px;
+    }
+
+    .nav-button-right {
+        display: none;
+    }
+
+    .button-action-center-1 {
+        display: flex;
+        margin-right: 22px;
+        margin-top: 24px;
+    }
+
+    .hallway-img {
+        display: none;
+    }
+
+    .hallway-img-1 {
+        display: block;
+    }
+    p.mine-box-span-1{
+        display: block;
+        All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.
+    }
+    p.mine-box-span {
+        display: none;
+    }
 }
