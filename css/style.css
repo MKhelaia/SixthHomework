@@ -431,7 +431,7 @@ p.mine-box-text span:nth-child(2) {
 .hallway-img-1 {
     display: none;
 }
-
+/* დახლიჩე მედია ქუერიც, სხვა ფაილში გადაიტანე  */
 @media (min-width: 744px) {
     .header-nav {
         display: flex;
@@ -441,6 +441,7 @@ p.mine-box-text span:nth-child(2) {
         margin: 38px 87.5px;
     }
 
+     /*  არ დატოვო ცარიელი სელექთები, ან დააკომენტარე თუ სამომავლოდ გეგმავ რაიმეს დამატებას. */
     .header-nav-ul {}
 
     .heder-nav-li-1 {}
@@ -466,6 +467,7 @@ p.mine-box-text span:nth-child(2) {
     .hallway-img-1 {
         display: block;
     }
+    /*  ეცადე ელემენტს პირდაპირ არ მიმართო თუ გლობალურად არ ცვლი / არესეტებ.  */
     p.mine-box-span-1{
         display: block;
         All base UI elements are made using Nested Symbols and shared styles that are logically connected with one another.
